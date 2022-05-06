@@ -138,6 +138,10 @@ p a {
     opacity: 1;
 }
 
+p .emphasize {
+    font-weight: 700;
+    font-size: 28px;
+}
 /*  1) make text dynamic
     2) add landscapes
     3) make background of logo transparent
