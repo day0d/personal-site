@@ -32,7 +32,7 @@ header h1 img {
     margin-right: 0;
 }
 
-header nav a {
+header nav {
     display: flex;
     align-items: center; /* Aligns items vertically in the center */
     justify-content: space-between; /* Positions the first child (logo) to the left and the div to the right */
