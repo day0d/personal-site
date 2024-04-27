@@ -39,6 +39,17 @@ header nav a {
     font-weight: 500;
     text-decoration: none;
     transition: opacity .3s ease-in;
+    width: 100%; /* Ensures the nav element takes full width of its container */
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center; /* Aligns the text and logo image vertically in the center */
+}
+
+.nav-subpages {
+    display: flex;
+    gap: 20px; /* Adds space between the navigation links */
 }
 
 header nav a:hover {
