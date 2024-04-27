@@ -142,6 +142,22 @@ p .emphasize {
     font-weight: 700;
     font-size: 28px;
 }
+
+/* Responsive iframe container setup */
+.responsive-iframe {
+    position: relative;
+    width: 80vw; /* 80% of the viewport width */
+    height: 80vw; /* Height equal to the width to maintain a square */
+    margin: auto; /* Centering the iframe */
+}
+
+/* Styling for the iframe to ensure it fills its container and has no border */
+iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
 /*  1) make text dynamic
     2) add landscapes
     3) make background of logo transparent
