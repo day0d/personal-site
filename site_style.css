@@ -48,16 +48,6 @@ header nav a {
     transition: opacity .3s ease-in;
 }
 
-.nav-logo {
-    display: flex;
-    align-items: center; /* Aligns the text and logo image vertically in the center */
-}
-
-.nav-subpages {
-    display: flex;
-    gap: 20px; /* Adds space between the navigation links */
-}
-
 header nav a:hover {
     color:#FEFBD4;
     border-bottom: 2px solid #FEFBD4;
