@@ -29,20 +29,17 @@ header h1 img {
     margin-right: 0;
 }
 
-nav {
-    display: flex;
-    align-items: center; /* Aligns items vertically in the center */
-    justify-content: space-between; /* Positions the first child (logo) to the left and the div to the right */
-    width: 100%; /* Ensures the nav element takes full width of its container */
-}
-
-header nav a {
+header h1 nav a {
     margin-left: 15px;
     color: #FF497C;
     font-size: 32px;
     font-weight: 500;
     text-decoration: none;
     transition: opacity .3s ease-in;
+    display: flex;
+    align-items: center; /* Aligns items vertically in the center */
+    justify-content: space-between; /* Positions the first child (logo) to the left and the div to the right */
+    width: 100%; /* Ensures the nav element takes full width of its container */
 }
 
 header nav a:hover {
