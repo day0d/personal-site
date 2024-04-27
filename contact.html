@@ -14,9 +14,6 @@ type="text/css">
     </nav>
 </header>
 <form id="contactForm">
-    <label for="email">Email:</label>
-    <input type="email" id="email" name="email" required>
-
     <label for="subject">Subject:</label>
     <input type="text" id="subject" name="subject" required>
 
@@ -29,9 +26,8 @@ type="text/css">
 <script>
     document.getElementById('contactForm').onsubmit = function(event) {
         event.preventDefault();
-        var email = document.getElementById('email').value;
         var subject = document.getElementById('subject').value;
         var message = document.getElementById('message').value;
-        window.open(`mailto:test@example.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(message + "\n\nReply to: " + email)}`);
+        window.open(`mailto:yoderderrick@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(message)}`);
     };
 </script>
